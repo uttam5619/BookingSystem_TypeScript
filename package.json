@@ -1,0 +1,31 @@
+{
+  "name": "bookingservice_backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.1",
+    "@types/pg": "^8.16.0",
+    "nodemon": "^3.1.11",
+    "tsx": "^4.21.0"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "mysql2": "^3.16.3",
+    "pg": "^8.18.0",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "uuid": "^13.0.0"
+  }
+}
