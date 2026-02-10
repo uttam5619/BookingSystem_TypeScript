@@ -1,5 +1,8 @@
+#node_modles
 node_modules
 
+# file containing my learning from the project.
 projectInfo.md
 
+#Environment Variables
 .env
